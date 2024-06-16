@@ -15,10 +15,15 @@ print(my_bank_balance)
 is_married = True
 print(not is_married)
 
-# is operator
+# is operator  ---identity operator
 
 a = 5
 b = -10.4
 print(a == b)
+
+print("############################")
+my_list = [1,2,4,5]
+my_list2 = [2,5,4,6]
+print(my_list is my_list2)
 
 
